@@ -5,7 +5,7 @@ A simple Objective-C library which simplify QR Code generation starting from a s
 ``` objc
 #import "QRCodeGenerator.h"
 
-// generate a QR Code with `Hello World` string and default settings: black text, white background, and 200x200 size
+// generate a QR Code with `Hello World` string and default settings: black QR Code, white background, and 200x200 size
 imageView.image = [[QRCodeGenerator alloc] initWithString:@"Hello World"] getImage];
 ```
 
