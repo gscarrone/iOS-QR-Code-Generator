@@ -9,7 +9,7 @@ imageView.image = [[QRCode alloc] initWithString:@"Hello World"] getImage];
 
 # Customization
 ``` objc
-// generate a QR Code with `Hello World` and customize size and aspect
+// generate a QR Code with `Hello World` and custom size and aspect
 QRCode *qr = [[QRCode alloc] initWithString:@"Hello World"];
 qr.size = CGSizeMake(400.0f, 400.0f); // 400x400 size
 qr.color = [CIColor colorWithRGBA:@"#FFFFFF"]; // white QR Code color
