@@ -14,7 +14,7 @@ imageView.image = [[QRCodeGenerator alloc] initWithString:@"Hello World"] getIma
 #import "QRCodeGenerator.h"
 
 // generate a QR Code with `Hello World` and custom size and aspect
-QRCode *qr = [[QRCodeGenerator alloc] initWithString:@"Hello World"];
+QRCodeGenerator *qr = [[QRCodeGenerator alloc] initWithString:@"Hello World"];
 qr.size = CGSizeMake(400.0f, 400.0f); // 400x400 size
 qr.color = [CIColor colorWithRGBA:@"#FFFFFF"]; // white QR Code color
 qr.backgroundColor = [CIColor colorWithRGBA:@"#000000"]; // black background color
