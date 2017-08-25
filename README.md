@@ -2,7 +2,7 @@
 A simple Objective-C library which simplify QR Code generation starting from a string.
 
 # Requirements
-iOS >= 8.0
+* iOS >= 8.0
 
 # Usage
 ``` objc
