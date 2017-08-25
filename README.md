@@ -26,7 +26,7 @@ imageView.image = [qr getImage];
 ```
 
 # Author
-Giovanni Scarrone, https://www.giovanniscarrone.it/
+Giovanni Scarrone, <a href='https://www.giovanniscarrone.it/' target='_blank'>https://www.giovanniscarrone.it/</a>
 
 # License
 MIT
