@@ -25,5 +25,8 @@ qr.backgroundColor = [CIColor colorWithRGBA:@"#000000"]; // black background col
 imageView.image = [qr getImage];
 ```
 
+# Author
+Giovanni Scarrone, https://www.giovanniscarrone.it/
+
 # License
 MIT
