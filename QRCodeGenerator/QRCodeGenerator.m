@@ -24,6 +24,7 @@
 //
 
 #import "QRCodeGenerator.h"
+#import "NSString+Utils.h"
 
 @interface QRCodeGenerator ()
 

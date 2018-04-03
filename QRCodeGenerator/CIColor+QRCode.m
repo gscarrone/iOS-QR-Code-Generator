@@ -24,6 +24,7 @@
 //
 
 #import "CIColor+QRCode.h"
+#import "NSString+Utils.h"
 
 @implementation CIColor (QRCode)
 
